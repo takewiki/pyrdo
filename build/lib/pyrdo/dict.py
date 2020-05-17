@@ -13,3 +13,15 @@ def textSearch(key,dict):
         else:
             continue
     return False
+
+
+if __name__ == "__main__":
+	mydata = [1,2,3,4,5]
+	myarr = [['A1'],['B1']]
+	text = "|".join(['a',"b","c"])
+	print(text)
+	a = ["我是胡立磊"]
+	b = "我是e"
+	print(textSearch(b, a))
+	mydata2 =[['1','tom'],['2','jack']]
+

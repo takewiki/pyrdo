@@ -114,3 +114,18 @@ def arrayLookup(arrayData,txt_search,look_idx,ret_idx):
 		else:
 			continue
 	return False
+
+if __name__ == "__main__":
+	mydata = [1,2,3,4,5]
+	myarr = [['A1'],['B1']]
+	myres = arrayAddPrefix(myarr,0)
+	print(myres)
+	text = "|".join(['a',"b","c"])
+	print(text)
+	myarr2 = arrayPaste(myarr)
+	print(myarr2)
+	a = ["我是胡立磊"]
+	b = "我是e"
+	mydata2 =[['1','tom'],['2','jack']]
+	print(arrayLookup(mydata2,'jack',1,0))
+	print(arrayColSel2(mydata2,0))
